@@ -5,7 +5,15 @@ using System.Threading.Tasks;
 
 namespace CrudAspNet.src.ApplicationCore
 {
-    public class YoungSpy
+    public class YoungSpy : Young
     {
+        public string Locality { get; set; }
+        public string Year { get; set; }
+
+        public YoungSpy()
+        {
+        }
+
+
     }
 }
